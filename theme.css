@@ -251,6 +251,10 @@ input:focus,select:focus{border-color:var(--gold-1);background:rgba(0,0,0,.34);b
 .qcard.mine{background:linear-gradient(100deg,var(--gold-1),var(--gold-2));border-color:var(--gold-3);box-shadow:0 8px 18px rgba(201,161,91,.4)}
 .qcard.mine .qn,.qcard.mine .ql{color:var(--wine-2)}
 .qcard.mine.serving{box-shadow:0 0 0 3px rgba(70,196,140,.55),0 8px 18px rgba(201,161,91,.4)}
+/* ຄິວທີ່ຖືກຮຽກ (ຫຼາຍພ້ອມກັນໄດ້) → ກະພິບເອັບເຟັກ */
+@keyframes qcardCalled{0%,100%{box-shadow:0 0 14px rgba(70,196,140,.25)}50%{box-shadow:0 0 0 4px rgba(70,196,140,.6),0 0 26px rgba(70,196,140,.5)}}
+.qcard.called{animation:qcardCalled 1.15s ease-in-out infinite}
+.qcard.called .ql{color:#8fe3bd;font-weight:800}
 .board-empty{grid-column:1/-1}
 
 /* ===== countdown ===== */
