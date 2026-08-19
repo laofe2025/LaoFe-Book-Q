@@ -193,6 +193,8 @@ input:focus,select:focus{border-color:var(--gold-1);background:rgba(0,0,0,.34);b
 .board-sub-head{font-size:12.5px;color:var(--cream-dim);margin-bottom:9px}
 .adminlink{display:block;width:max-content;max-width:100%;margin:18px auto 0;text-decoration:none}
 .backhome{display:inline-flex;width:max-content;margin:0 0 14px;text-decoration:none}
+.menubtn{text-decoration:none;color:var(--gold-2);border-color:var(--gold-1);font-weight:800}
+.menubtn:hover{background:rgba(201,161,91,.12);color:var(--gold-3)}
 
 .totbar{display:flex;align-items:center;justify-content:space-between;margin-top:14px;padding:13px 18px;
   border-radius:15px;background:rgba(0,0,0,.24);border:1px solid var(--line);font-size:14px;color:var(--cream-dim)}
